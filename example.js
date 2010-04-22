@@ -5,10 +5,10 @@ var prowlApiKey = 'yourApiKey';
 
 process.addListener("uncaughtException", function(exception)
 {
-/*
 	sys.log(exception.message)
 	sys.log(exception.stack)
 
+	/*
 	var exceptionNotification = new Prowl.connection(prowlApiKey);
 
 	exceptionNotification.send({
@@ -16,7 +16,7 @@ process.addListener("uncaughtException", function(exception)
 		'event': 'uncaughtException - '+exception.message,
 		'description': exception.stack
 	});
-*/
+	*/
 });
 
 var notification = new Prowl.connection(prowlApiKey);
