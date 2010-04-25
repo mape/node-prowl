@@ -8,10 +8,8 @@ A module for node.js that allows you to send push notifications to your iPhone t
     var prowlApiKey = 'yourApiKey';
 
     // Send uncaught exceptions to your iPhone.
-    process.addListener("uncaughtException", function(exception)
-    {
-        var notification = new Prowl.connection(prowlApiKey);
-
+    var notification = new Prowl.connection(prowlApiKey);
+    process.addListener("uncaughtException", function (exception) {
         notification.send({
             'application': 'My node.js app',
             'event': 'uncaughtException - '+exception.message,
