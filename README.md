@@ -18,7 +18,3 @@ A module for node.js that allows you to send push notifications to your iPhone t
             'description': exception.stack
         });
     });
-
-## Todo:
-* Fix callback with information from Prowl server.
-* Fix exceptions for flush and emit on undefined.
