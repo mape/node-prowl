@@ -1,9 +1,10 @@
 {
   "name" : "prowl",
   "description" : "Allows you to send notifications to your iPhone through the Prowl API using node.js",
+  "version" : "0.0.2",
   "author" : "Mathias Pettersson <mape@mape.me>",
   "engines" : ["node"],
-  "directories" : { "lib" : "lib" },
+  "directories" : { "lib" : "./lib" },
   "main" : "./lib/prowl",
   "repositories" : [
     { "type":"git", "url":"http://github.com/mape/node-prowl" }
