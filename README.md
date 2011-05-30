@@ -2,6 +2,13 @@
 
 A module for node.js that allows you to send push notifications to your iPhone through the Prowl API (http://prowl.weks.net/api.php). 
 
+## Installation
+
+Via [npm](http://github.com/isaacs/npm):
+
+    $ npm install prowler
+
+
 ## Example usage:
 
     var Prowl = require('prowl');
